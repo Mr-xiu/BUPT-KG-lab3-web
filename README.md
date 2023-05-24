@@ -31,6 +31,6 @@ npm run dev
 npm run build
 ```
 
-命令执行完会生成 docs 文件夹，里面就是css、img、js、html等等文件，加到后端项目中就OK辣。
+命令执行完会生成 docs 文件夹，里面就是css、img、js、html等等文件，放到后端项目中的docs 文件夹就OK辣。
 
 
