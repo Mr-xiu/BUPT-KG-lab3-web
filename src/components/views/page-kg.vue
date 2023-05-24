@@ -90,7 +90,7 @@ export default {
     this.entity_list = []
     reqGetEntity().then((response) => {
       let data = response.data
-      console.log(data)
+      console.log('reqGetEntity:', data)
       this.entity_list = data
     }).catch(function () {
       ElMessage({

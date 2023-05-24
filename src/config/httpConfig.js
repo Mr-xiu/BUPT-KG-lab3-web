@@ -18,7 +18,7 @@ const service = axios.create({
 // 添加请求拦截器
 service.interceptors.request.use((config) => {
     // 在发送请求之前做些什么
-    if (config.url.indexOf("/static/res/login.json") === -1) {
+    if (config.url.indexOf("/static/login.json") === -1) {
         if (isAuthenticated()) {
             // 做点什么，比如在请求中加点额外的参数
         } else {

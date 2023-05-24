@@ -36,7 +36,7 @@ const githubUrl = 'https://github.com/Mr-xiu'
 const qdUrl = 'https://github.com/Mr-xiu/BUPT-KG-lab3-web'
 const hdUrl = 'https://github.com/Mr-xiu/BUPT-KG-lab3-app'
 const yclUrl = 'https://github.com/Mr-xiu/BUPT-KG-lab3'
-const avatarUrl = envConfig.baseUrl() + '/static/imgs/jimeng.webp'
+const avatarUrl = envConfig.baseUrl() + '/static/jimeng.webp'
 
 // 用户名称
 const userNick = computed(() => globalCfg.$store.getters[Constant.USERINFO_USER_NICK_GET_KEY])
