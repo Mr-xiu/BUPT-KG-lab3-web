@@ -11,7 +11,7 @@
                 >
                     <ElementPlus/>
                 </el-icon>
-                图像检索系统
+                暴雨洪涝知识图谱平台
             </h3>
             <el-form-item>
                 <el-input

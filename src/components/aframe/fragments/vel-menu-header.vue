@@ -14,7 +14,7 @@
         class="vel_menu_header_txt"
         :style="{height:fontHeight}"
     >
-      <span v-show="showLogoName">图像检索系统</span>
+      <span v-show="showLogoName">暴雨洪涝知识图谱平台</span>
     </div>
   </section>
 </template>

@@ -11,17 +11,10 @@ const res = {
         "menus": [
             {
                 "id": "1",
-                "label": "上传图片",
+                "label": "芝士图谱",
                 "icon": "PictureFilled",
-                "path": "/update",
-                "component": "/page-update"
-            },
-            {
-                "id": "2",
-                "label": "查看结果",
-                "icon": "Tickets",
-                "path": "/result",
-                "component": "/page-result"
+                "path": "/kg",
+                "component": "/page-kg"
             },
         ],
         "pages": [

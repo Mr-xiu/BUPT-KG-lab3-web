@@ -24,10 +24,6 @@ for (let path in modulesFiles) {
 const store = createStore({
     modules, // 简写，相当于`modules:modules`
     state: {
-        has_retrieval: false,
-        now_img: '',
-        result_img_list:[],
-        time:'',
     },
 })
 
